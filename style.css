@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Karla:wght@400;700&family=Lexend+Deca&family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+:root{
+    --white-color: #ffffff;
+    --black-color: #000000;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px 70px 50px;
+}
+header img{
+    width: 120px;
+}
+nav li{
+    list-style: none;
+    display: inline;
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 20px;
+    color: var(--black-color);
+}
+#section-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2.4rem;
+    padding: 30px 50px;
+    margin-bottom: 200px;
+}
+#section-1 p{
+    margin-top: 20px;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+}
+#section-1  .info-part{
+    width: 590px;
+}
+#section-1 .image-part img{
+    width: 500px;
+}
+#section-1 form{
+    margin-top: 20px;
+}
+#section-1 input[type="email"]{
+    width: 250px;
+    padding: 11px;
+    border: 1px solid var(--black-color);
+    border-radius: 2px;
+    margin-right: 8px;
+}
+#section-1 input[type="submit"]{
+    width: 170px;
+    padding: 12px;
+    border: none;
+    background-color: hsl(224, 93%, 58%);
+    border-radius: 2px;
+    color: var(--white-color);
+    font-weight: bold;
+    cursor: pointer;
+}
+#section-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background: url('images/bg-curve-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 100px;
+    gap: 6px;
+}
+#section-2 h2{
+    font-size: 3.5rem;
+}
+#section-2 .info-part > p{
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    margin-top: 20px;
+}
+#section-2 .info-part a{
+    font-size: 1.8rem;
+    display: block;
+    margin-top: 15px;
+    color: hsl(170, 45%, 43%);
+    text-decoration: none;
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+    width: 180px;
+}
+#section-2 .image-part img{
+    width: 500px;
+}
+#section-2  .info-part{
+    width: 590px;
+}
+#section-2 .card{
+    max-width: 400px;
+    width: 90%;
+    background-color: var(--white-color);
+    margin-top: 40px;
+    padding: 30px;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    box-shadow: 1px 1px 5px;
+}
+.person-details{
+    display: flex;
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+.person-details img{
+    width: 40px;
+    border-radius: 50%;
+}
+.person-details .name{
+    margin-left: 10px;
+}
+#section-3{
+    background-color: hsl(238, 22%, 44%);
+    display: flex;
+    padding: 70px 50px;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--white-color);
+}
+#section-3 .info-part{
+    width: 45%;
+}
+#section-3 h2{
+    font-size: 3.5rem;
+}
+#section-3 p{
+    font-size: 1.8rem;
+    margin-top: 10px;
+    line-height: 2.5rem;
+}
+#section-3 input{
+    display: block;
+    padding: 10px;
+}
+#section-3 input[type="email"]{
+    width: 350px;
+    border-radius: 2px;
+    border: none;
+    margin-right: 30px;
+}
+#section-3 #btn{
+    margin-top: 10px;
+    border: none;
+    background-color: hsl(224, 93%, 58%);
+    border-radius: 2px;
+    color: var(--white-color);
+    font-weight: bold;
+    cursor: pointer;
+}
+#section-4{
+    background-color: hsl(243, 87%, 12%);
+}
+.section-4{
+    display: flex; 
+    color: var(--white-color);
+    font-size: 1.7rem;
+    padding: 20px 50px;
+    justify-content: space-between;
+    gap: 30px;
+}
+.phone{
+    margin-bottom: 15px;
+}
+.phone-and-email p{
+    display: inline-block;
+    margin-left: 15px;
+}
+#section-4 > img{
+    width: 150px;
+    margin: 30px;
+}
+.section-4 li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+.section-4 a{
+    text-decoration: none;
+    color: var(--white-color);
+    transition: color 0.3s ease-in-out;
+}
+.section-4 a:hover{
+    color: hsl(224, 93%, 58%);
+}
+.section-4 .icon{
+    margin: 10px;
+    border: 1px solid var(--white-color);
+    padding: 10px;
+    border-radius: 50%;
+    transition: color 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+.section-4 .icon:hover{
+    color: hsl(224, 93%, 58%);
+    border: 1px solid hsl(224, 93%, 58%);
+}
+.section-4 .face{
+    width: 1000px;
+    padding: 10px 15px;
+}
+@media (max-width: 1034px){
+    #section-1 input[type="submit"]{
+        margin-top: 10px;
+        width: 250px;
+    }
+}
+@media (max-width: 954px){
+    #section-1 .image-part img, #section-2 .image-part img{
+        width: 400px;
+    }
+}
+@media (max-width: 799px){
+    #section-1 .image-part img, #section-2 .image-part img{
+        width: 350px;
+    }
+}
+@media (max-width: 768px){
+    #section-3 input[type="email"]{
+        width: 300px;
+    }
+}
+@media (max-width: 750px){
+    header{
+        padding: 20px;
+    }
+    header img{
+        width: 80px;
+    }
+    nav a{
+        padding: 5px;
+    }
+    #section-1{
+        flex-direction: column-reverse;
+        padding: 10px;
+        margin-bottom: 100px;
+    }
+    #section-1  .info-part{
+        width: 95%;
+        margin-top: 80px;
+        max-width: 760px;
+        display: block;
+        text-align: center;
+    }
+    #section-1 .info-part h2{
+        font-size: 3.2rem;
+    }
+    #section-1 .image-part img{
+        width: 100%;
+        max-width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    #section-1 form{
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    #section-1 form input[type="email"]{
+        max-width: 400px;
+        width: 100%;
+        margin: 20px 0;
+        display: block;
+    }
+    #section-1 input[type="submit"]{
+        max-width: 400px;
+        width: 100%;
+        margin-top: 1px;
+    }
+    #section-2{
+        flex-direction: column-reverse;
+        padding: 60px 10px;
+        background: url('images/bg-curve-mobile.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    #section-2 h2, #section-3 h2{
+        font-size: 2.4rem;
+        text-align: center;
+    }
+    #section-2 .info-part > p, #section-3 .info-part > p{
+        font-size: 1.7rem;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    #section-2 .info-part{
+        width: 95%;
+        margin-top: 80px;
+        font-size: 1.7rem;
+    }
+    #section-2 .image-part img{
+        width: 100%;
+        max-width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    #section-2 a{
+        margin: 60px auto;
+        padding-bottom: 10px;
+    }
+    #section-2 .card{
+        margin: 20px auto;
+    }
+    #section-3{
+        flex-direction: column;
+        padding: 50px 10px;
+    }
+    #section-3 .info-part{
+        display: block;
+        max-width: 700px;
+        width: 95%;
+    }
+    #section-3 form{
+        width: 300px;
+        margin: 0 auto;
+        display: block;
+    }
+    #section-3 input[type="email"]{
+        max-width: 300px;
+        width: 100%;
+        margin: 20px auto;
+        display: block;
+    }
+    #section-3 #btn{
+        max-width: 300px;
+        width: 100%;  
+        display: block;
+    }
+    .section-4{
+        flex-direction: column;
+        padding: 40px 50px;
+    }
+    .phone-and-email p{
+        display: inline-block;
+        margin-left: 4px;
+    }
+    .section-4 .icons{
+        margin: 0 auto;
+    }
+    .section-4 .icon{
+        margin: 20px 5px;
+    }
+}
+@media (max-width: 280px){
+    header img{
+        width: 70px;
+    }
+    nav a{
+        padding: 1px;
+    }
+    #section-3 input[type="email"]{
+        max-width: 250px;
+    }
+    #section-3 #btn{
+        max-width: 250px;
+       margin:  0 auto;
+    }
+}
